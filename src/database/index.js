@@ -22,6 +22,8 @@ const getUsers = () => {
 }
 const getItemArray = () => {
   const dataAccessMethod = () => {
+
+    //Implement a set to send back unqiue item to Client
     const itemSet = new Set()
     const keys = Object.keys(db.itemsOfUserByUsername)
     for (let key of keys) {

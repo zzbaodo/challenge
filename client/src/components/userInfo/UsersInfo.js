@@ -2,10 +2,12 @@ import React, { useEffect, useState } from "react"
 import "./UsersInfo.css"
 import Table from "../table/Table"
 import axios from "axios"
+
 const UsersInfo = () => {
   const [userData, setUserData] = useState([])
   const [error, setError] = useState(null)
   const [loading, setLoading] = useState(false)
+  
   useEffect(() => {
     setLoading(true)
     axios

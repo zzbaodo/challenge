@@ -30,3 +30,8 @@
 .table tbody tr:last-of-type {
   border-bottom: 2px solid #009879;
 }
+
+.table .loading {
+    font-size: 18px;
+    padding-left: 5px;
+}

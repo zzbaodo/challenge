@@ -11,7 +11,7 @@ const Table = ({ col1Label, col2Label, data, loading }) => {
       </thead>
       <tbody>
         {loading ? (
-          <p>Loading...</p>
+          <p className="loading">Loading...</p>
         ) : (
           data &&
           data.map((el) => (
